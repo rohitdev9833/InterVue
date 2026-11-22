@@ -18,7 +18,7 @@ dns.setServers([
 
 const app = express()
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://intervue-1-778s.onrender.com",
     credentials:true
 }))
 
